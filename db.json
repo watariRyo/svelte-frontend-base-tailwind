@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Hello World",
+      "body": "Hello World. body"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Hello SvelteKit",
+      "body": "Hello SvelteKit. body"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "Hello Post",
+      "body": "Hello SvelteKit. Post"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "Hello Post",
+      "body": "Hello SvelteKit. Post"
+    }
+  ]
+}
