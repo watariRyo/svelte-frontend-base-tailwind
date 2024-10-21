@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"test": "vitest",
-		"json-server": "json-server json-server.cjs --port 4000",
+		"json-server": "node mock-server.cjs",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
