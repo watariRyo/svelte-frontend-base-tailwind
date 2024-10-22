@@ -20,6 +20,8 @@ const validateRequest = (req, res, next) => {
 		router.render = (req, res) => {
 			res.status(400).jsonp({ error: 'userId is required' });
 		};
+		// GETに置換しないと、レスポンス書換のみで裏で更新ができてしまう
+		req.method = 'GET';
 	} else {
 		router.render = (req, res) => defaultRender(req, res);
 	}
